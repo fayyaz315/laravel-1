@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('auth/logout', 'Auth\LoginController@getLogout');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -31,3 +32,7 @@ Route::resource('admin/categories', 'AdminCategoriesController');
 }); 
 
 
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
