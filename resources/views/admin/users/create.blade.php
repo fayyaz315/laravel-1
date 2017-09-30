@@ -6,7 +6,7 @@
 @section('content')
 
 
-    <h1>Create User</h1>
+    <h1 class="page-header">Create User</h1>
 
     			{!! Form::open(['route' => 'users.store','files' => true]) !!}
     			<div class="form-group"> 

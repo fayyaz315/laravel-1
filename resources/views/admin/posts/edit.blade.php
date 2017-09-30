@@ -6,7 +6,7 @@
 @section('content')
 
 
-    <h1>Edit Post</h1>
+    <h1 class="page-header">Edit Post</h1>
                 
                 <div class="col-lg-3">
                     <img height = "360" class='img-responsive img-rounded' src=" {{$post->photo ? $post->photo->file : 'http://via.placeholder.com/400x400'}}" />

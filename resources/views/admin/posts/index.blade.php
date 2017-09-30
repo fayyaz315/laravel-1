@@ -6,7 +6,7 @@
 @section('content')
 
 
-    <h1>All Posts</h1>
+    <h1 class="page-header">All Posts</h1>
 
         @if(count($posts))
         <table class="table table-striped">
